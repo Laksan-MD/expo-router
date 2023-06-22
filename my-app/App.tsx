@@ -1,11 +1,12 @@
-import Index from './app/index'
-import { View } from 'react-native';
+import { Tabs } from "expo-router";
+
+
 
 export default function App() {
   return (
-    <View>
-        <Index/>
-    </View>
+    <Tabs>
+      <Tabs.Screen name="app/(tabs)"/>
+    </Tabs>
   );
 }
 
