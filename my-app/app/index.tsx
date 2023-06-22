@@ -1,12 +1,13 @@
-import { Text, View } from 'react-native'
+
+import { Stack } from 'expo-router'
 import React, { Component } from 'react'
 
 export class Index extends Component {
   render() {
     return (
-      <View>
-        <Text>index</Text>
-      </View>
+     <Stack>
+      
+     </Stack>
     )
   }
 }
