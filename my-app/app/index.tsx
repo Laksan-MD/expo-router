@@ -1,7 +1,7 @@
 import { Text, View } from 'react-native'
 import React, { Component } from 'react'
 
-export class index extends Component {
+export class Index extends Component {
   render() {
     return (
       <View>
@@ -11,4 +11,4 @@ export class index extends Component {
   }
 }
 
-export default index
+export default Index

@@ -1,10 +1,10 @@
-import StartPage from './app/index'
+import Index from './app/index'
 import { View } from 'react-native';
 
 export default function App() {
   return (
     <View>
-        <StartPage/>
+        <Inde/>
     </View>
   );
 }
